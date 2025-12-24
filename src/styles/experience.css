@@ -1,0 +1,50 @@
+.experience {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+/* LIST */
+.exp-list {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* CARD */
+.exp-card {
+  background-color: #0f172a;
+  border: 1px solid #1e293b; /* only border, NO shadow */
+  border-radius: 12px;
+  padding: 28px 30px;
+  text-align: left;
+}
+
+.exp-card h3 {
+  font-size: 20px;
+  color: #38bdf8;
+  margin-bottom: 6px;
+}
+
+.exp-company {
+  font-size: 15px;
+  color: #cbd5e1;
+}
+
+.exp-duration {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.exp-desc {
+  font-size: 14px;
+  color: #e5e7eb;
+  margin-top: 8px;
+}

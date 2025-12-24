@@ -1,0 +1,53 @@
+.education {
+  padding: 80px 20px;
+  color: #ffffff;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.education-list {
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.education-card {
+  background-color: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.education-card h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
+  color: #e5e7eb;
+}
+
+.edu-year {
+  font-size: 14px;
+  color: #38bdf8;
+}
+
+.edu-institute {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #cbd5f5;
+}
+
+.edu-desc {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.loading-text {
+  text-align: center;
+  color: #94a3b8;
+}

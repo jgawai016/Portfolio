@@ -1,0 +1,150 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 12px;
+}
+.section {
+  padding-bottom: 60px;
+}
+
+.section-title {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.divider {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(120deg, #1f1c2c, #928dab);
+  border-radius: 10px;
+}
+.navbar {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.card {
+  border: none;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  background-color: skyblue;
+}
+.btn {
+  border-radius: 30px;
+  padding: 10px 26px;
+  font-weight: 500;
+}
+body {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  color: #212529;
+}
+
+p {
+  line-height: 1.7;
+}
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.project-row {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.project-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-image {
+  width: 45%;
+  height: 260px;
+  background: linear-gradient(120deg, #1f1c2c, #928dab);
+  border-radius: 18px;
+}
+
+.project-content {
+  width: 55%;
+}
+
+.project-content h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.tech span {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.links a {
+  margin-right: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.project-row {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.project-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-image {
+  width: 45%;
+  height: 260px;
+  background: linear-gradient(120deg, #1f1c2c, #928dab);
+  border-radius: 18px;
+}
+
+.project-content {
+  width: 55%;
+}
+
+.project-content h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.tech span {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.links a {
+  margin-right: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.exp {
+  border-left: 4px solid #928dab;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+h1 span {
+  display: block;
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
